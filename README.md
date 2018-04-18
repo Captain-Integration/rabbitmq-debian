@@ -3,7 +3,7 @@
 
 **Install prerequisites**
 ```
-$ apt-get install wget dpkg
+$ apt-get install wget dpkg apt
 ```
 
 **Add Erlang repository as RabbitMQ runs on the Erlang runtime.**
@@ -31,5 +31,5 @@ $ apt-get install -f -y
 
 **Install RabbitMQ server**
 ```
-apt-get install rabbitmq-server
+$ apt-get install rabbitmq-server
 ```
